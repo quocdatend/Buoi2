@@ -58,6 +58,7 @@ namespace Buoi2
             }
             Console.WriteLine("Hoc sinh co tuoi lon nhat la: ");
             tuoiMaxSt.Output();
+            Console.ReadLine();
         }
     }
 }

@@ -27,11 +27,11 @@ namespace Buoi2
         public void Input()
         {
             Console.Write("Nhap id: ");
-            id = Console.Read();
+            id = int.Parse(Console.ReadLine());
             Console.Write("Nhap ten: ");
-            name = Console.Read().ToString();
+            name = Console.ReadLine();
             Console.Write("Nhap tuoi: ");
-            age = Console.Read();
+            age = int.Parse(Console.ReadLine());
         }
 
         public void Output()
