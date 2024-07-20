@@ -58,6 +58,12 @@ namespace Buoi2
             }
             Console.WriteLine("Hoc sinh co tuoi lon nhat la: ");
             tuoiMaxSt.Output();
+            Console.WriteLine("Xap xep theo tuoi tang dan!");
+            List<Student> sortedStudents = st.OrderBy(s => s.Age).ToList();
+            foreach (var item in sortedStudents)
+            {
+                item.Output();
+            }
             Console.ReadLine();
         }
     }
